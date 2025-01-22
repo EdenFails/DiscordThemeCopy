@@ -1,9 +1,10 @@
 {
-   "name":"Frieren",
+   "name":"Vixtra",
    "description":"Currently Undergoing Bunny Port | Rewrite Version: 0.4",
    "authors":[
       {
-         "name":"Frieren Eden edit",
+         "name":"VioletStorm",
+         "id":"246735056280748032"
       }
    ],
    "spec":2,
@@ -228,7 +229,7 @@
    },
    "background":{
       "blur":0.0,
-      "url":"https://images3.alphacoders.com/135/1354394.jpeg",
+      "url":"https://i.ibb.co/xMBLPFc/warmth.png",
       "alpha":1.0
    },
    "plus":{
