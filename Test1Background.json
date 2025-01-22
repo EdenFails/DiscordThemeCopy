@@ -25,10 +25,10 @@
   "#FFFF22"
 ],
 "TEXT_PRIMARY": [
-  "#FF5666"
+  "#FFFFFF"
 ],
 "TEXT_SECONDARY": [
-  "#6F517C"
+  "#FFFFFF"
       ],
       "INTERACTIVE_NORMAL":[
          "#AC80BF"
@@ -229,13 +229,13 @@
    },
   "background": {
     "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-    "shading": "20%",
-    "overlay": "rgba(0, 0, 0, 0.6)",
+    "shading": "70%",
+    "overlay": "rgba(0, 0, 0, 1)",
     "position": "center",
     "size": "cover",
     "repeat": "no-repeat",
     "attachment": "fixed",
-    "brightness": "70%",
+    "brightness": "50%",
     "contrast": "100%",
     "saturation": "100%",
     "invert": "0%",
