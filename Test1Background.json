@@ -229,7 +229,7 @@
     },
     "background": {
         "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-        "opacity": 0.4,
+        "alpha": 0.4,
         "blur": 1
     },
     "plus": {
