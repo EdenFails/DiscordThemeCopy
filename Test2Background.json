@@ -19,15 +19,15 @@
       ],
       "TEXT_MUTED":[
          "#6F517C"
-],
-"TEXT_LINK": [
-  "#E1A4F9"
-],
-"TEXT_PRIMARY": [
-  "#FF5666"
-],
-"TEXT_SECONDARY": [
-  "#6F517C"
+      ],
+      "TEXT_LINK":[
+         "#E1A4F9"
+      ],
+      "TEXT_PRIMARY":[
+         "#FF5666"
+      ],
+      "TEXT_SECONDARY":[
+         "#6F517C"
       ],
       "INTERACTIVE_NORMAL":[
          "#AC80BF"
@@ -45,10 +45,10 @@
          "#060208"
       ],
       "BACKGROUND_SECONDARY":[
-         "#060208"
+         "#0F0519"
       ],
       "BACKGROUND_SECONDARY_ALT":[
-         "#0F0519"
+         "#120819"
       ],
       "BACKGROUND_TERTIARY":[
          "#1E0D28"
@@ -63,7 +63,7 @@
          "#060208"
       ],
       "BACKGROUND_MOBILE_SECONDARY":[
-         "#060208"
+         "#0F0519"
       ],
       "BACKGROUND_NESTED_FLOATING":[
          "#060208"
@@ -165,36 +165,6 @@
       "RED_630":"#661E47",
       "RED_660":"#591A3F",
       "RED_700":"#4C1637",
-      "ORANGE_260":"#FF7632",
-      "ORANGE_300":"#F26D30",
-      "ORANGE_330":"#E5642D",
-      "ORANGE_345":"#D85C2B",
-      "ORANGE_360":"#CC5428",
-      "ORANGE_400":"#BF4F26",
-      "ORANGE_430":"#B24923",
-      "ORANGE_460":"#A54221",
-      "ORANGE_500":"#993D1E",
-      "ORANGE_530":"#8C381C",
-      "ORANGE_560":"#7F3119",
-      "ORANGE_600":"#722C16",
-      "ORANGE_630":"#662714",
-      "ORANGE_660":"#592111",
-      "ORANGE_700":"#4C1C0F",
-      "YELLOW_260":"#FF7632",
-      "YELLOW_300":"#F26D30",
-      "YELLOW_330":"#E5642D",
-      "YELLOW_345":"#D85C2B",
-      "YELLOW_360":"#CC5428",
-      "YELLOW_400":"#BF4F26",
-      "YELLOW_430":"#B24923",
-      "YELLOW_460":"#A54221",
-      "YELLOW_500":"#993D1E",
-      "YELLOW_530":"#8C381C",
-      "YELLOW_560":"#7F3119",
-      "YELLOW_600":"#722C16",
-      "YELLOW_630":"#662714",
-      "YELLOW_660":"#592111",
-      "YELLOW_700":"#4C1C0F",
       "GREEN_260":"#E293FF",
       "GREEN_300":"#D58CF2",
       "GREEN_330":"#C885E5",
@@ -227,21 +197,20 @@
       "BLUE_700":"#331B4C"
    },
    "background":{
-       "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-       "shading": "70%",
-       "overlay": "rgba(0, 0, 0, 0.6)",
-       "position": "center",
-       "size": "cover",
-       "repeat": "no-repeat",
-       "attachment": "fixed",
-       "brightness": "100%",
-       "contrast": "100%",
-       "saturation": "100%",
-       "invert": "0%",
-       "grayscale": "0%",
-       "sepia": "0%",
-       "blur": "0px"
-  },
+      "url": "https://images3.alphacoders.com/135/1354394.jpeg",
+      "shading": "70%",
+      "overlay": "rgba(0, 0, 0, 0.6)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat",
+      "attachment": "fixed",
+      "brightness": "100%",
+      "contrast": "100%",
+      "saturation": "100%",
+      "invert": "0%",
+      "grayscale": "0%",
+      "sepia": "0%",
+      "blur": "0px"
    },
    "plus":{
       "version":0
