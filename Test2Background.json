@@ -10,19 +10,19 @@
    "spec":2,
    "semanticColors":{
       "HEADER_PRIMARY":[
-         "#E6A8FF"
+         "#FFFFFF"
       ],
       "HEADER_SECONDARY":[
-         "#A175B2"
+         "#FFFFFF"
       ],
       "TEXT_NORMAL":[
-         "#FF5666"
+         "#FFFFFF"
       ],
       "TEXT_MUTED":[
-         "#6F517C"
+         "#FFFFFF"
 ],
 "TEXT_LINK": [
-  "#E1A4F9"
+  "#FFFF22"
 ],
 "TEXT_PRIMARY": [
   "#FF5666"
