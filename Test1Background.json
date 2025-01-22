@@ -1,6 +1,6 @@
 {
     "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.4",
+    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.41",
     "authors": [
         {
             "name": "VioletStorm",
@@ -16,7 +16,7 @@
             "#FFFFFF"
         ],
         "TEXT_NORMAL": [
-            "#FFFFFF"
+            "#FFFFFF00"
         ],
         "TEXT_MUTED": [
             "#FFFFFF"
