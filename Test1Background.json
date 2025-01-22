@@ -235,12 +235,12 @@
     "size": "cover",
     "repeat": "no-repeat",
     "attachment": "fixed",
-    "brightness": "20%",
+    "brightness": 20,
     "contrast": "100%",
     "saturation": "100%",
     "invert": "0%",
     "grayscale": "0%",
-    "blur": "3"
+    "blur": "30"
    },
    "plus":{
       "version":0
