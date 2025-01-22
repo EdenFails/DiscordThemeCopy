@@ -229,7 +229,7 @@
    },
   "background": {
     "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-    "shading": "70%",
+    "shading": "20%",
     "overlay": "rgba(0, 0, 0, 0.6)",
     "position": "center",
     "size": "cover",
@@ -241,7 +241,7 @@
     "invert": "0%",
     "grayscale": "0%",
     "sepia": "0%",
-    "blur": "2px"
+    "blur": "3px"
    },
    "plus":{
       "version":0
