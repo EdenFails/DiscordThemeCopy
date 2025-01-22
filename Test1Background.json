@@ -12,13 +12,5 @@
   "rawColors": {
     "BRAND_260": "#000000"
   },
-  "css": "
-    body {
-      background-image: url('https://images3.alphacoders.com/135/1354394.jpeg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-    }
-  "
+  "css": "body {background-image: url('https://images3.alphacoders.com/135/1354394.jpeg');background-size: cover;background-repeat: no-repeat;background-attachment: fixed;background-position: center;}"
 }
