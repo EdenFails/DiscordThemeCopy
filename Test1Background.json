@@ -18,20 +18,8 @@
     "BACKGROUND_MOBILE_PRIMARY": [ "#303446", "#292c3c" ],
     "BACKGROUND_MOBILE_SECONDARY": [ "#292c3c", "#292c3c" ],
     "BACKGROUND_NESTED_FLOATING": [ "#292c3c", "#232634" ],
-"BACKGROUND_PRIMARY": {
-    "type": "image",
-    "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-    "repeat": "no-repeat",
-    "size": "cover",
-    "position": "center"
-},
-"BACKGROUND_SECONDARY": {
-    "type": "image",
-    "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-    "repeat": "no-repeat",
-    "size": "cover",
-    "position": "center"
-},
+    "BACKGROUND_PRIMARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
+    "BACKGROUND_SECONDARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
     "BACKGROUND_SECONDARY_ALT": [ "#292c3c", "#51576d" ],
     "BACKGROUND_TERTIARY": [ "#232634", "#414559" ],
     "BG_BASE_PRIMARY": [ "#303446", "#303446" ],
