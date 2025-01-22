@@ -1,65 +1,98 @@
 {
-  "ACCENT_PRIMARY": "#2780e6",
-  "ACCENT_HOVER": "#1e63b3",
-  "SUCCESS_COLOR": "#43b581",
-  "DANGER_COLOR": "#982929",
-  "URL_COLOR": "#2780e6",
-
-  "STATUS_COLORS": {
-    "ONLINE": "#43b581",
-    "IDLE": "#faa61a",
-    "DND": "#982929",
-    "STREAMING": "#593695",
-    "OFFLINE": "#808080"
-  },
-
-  "TEXT_NORMAL": "rgb(220, 221, 222)",
-  "TEXT_MUTED": "rgb(114, 118, 125)",
-
-  "BACKGROUND": {
-    "IMAGE": "https://images3.alphacoders.com/135/1354394.jpeg",
-    "POSITION": "center",
-    "SIZE": "cover",
-    "REPEAT": "no-repeat",
-    "ATTACHMENT": "fixed",
-    "OVERLAY": "rgba(0, 0, 0, 0.6)",
-    "SHADING": "70%",
-    "BRIGHTNESS": "100%",
-    "CONTRAST": "100%",
-    "SATURATION": "100%",
-    "INVERT": "0%",
-    "GRAYSCALE": "0%",
-    "SEPIA": "0%",
-    "BLUR": "0px"
-  },
-
-  "USER_POPOUT": {
-    "OVERLAY": "rgba(0, 0, 0, 0.6)",
-    "BLUR": "3px"
-  },
-
-  "FONT": {
-    "MAIN": "gg sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-    "CODE": "Consolas, Liberation Mono, Menlo, Courier, monospace"
-  },
-
-  "CHANNEL": {
-    "UNREAD_COLOR": "#2780e6",
-    "COLOR": "rgba(255, 255, 255, 0.3)",
-    "TEXT_SELECTED": "#ffffff",
-    "MUTED": "rgba(255, 255, 255, 0.1)"
-  },
-
-  "MODAL": {
-    "BACKDROP": {
-      "OVERLAY": "rgba(0, 0, 0, 0.8)",
-      "BLUR": "0px"
+  "name": "ClearVision",
+  "description": "A Discord theme that enhances the appearance of your chat experience.",
+  "authors": [
+    {
+      "name": "VioletStorm",
+      "id": "246735056280748032"
     }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "HEADER_PRIMARY": ["#FFFFFF"],
+    "HEADER_SECONDARY": ["#B9BBBE"],
+    "TEXT_NORMAL": ["#DCDDDE"],
+    "TEXT_MUTED": ["#72767D"],
+    "TEXT_LINK": ["#00AFF4"],
+    "TEXT_PRIMARY": ["#FFFFFF"],
+    "TEXT_SECONDARY": ["#B9BBBE"],
+    "INTERACTIVE_NORMAL": ["#B9BBBE"],
+    "INTERACTIVE_HOVER": ["#DCDDDE"],
+    "INTERACTIVE_ACTIVE": ["#FFFFFF"],
+    "INTERACTIVE_MUTED": ["#4F545C"],
+    "BACKGROUND_PRIMARY": ["#36393F"],
+    "BACKGROUND_SECONDARY": ["#2F3136"],
+    "BACKGROUND_SECONDARY_ALT": ["#292B2F"],
+    "BACKGROUND_TERTIARY": ["#202225"],
+    "BACKGROUND_ACCENT": ["#4F545C"],
+    "BACKGROUND_FLOATING": ["#18191C"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#36393F"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#2F3136"],
+    "BACKGROUND_NESTED_FLOATING": ["#202225"],
+    "BACKGROUND_MESSAGE_HOVER": ["#2E3338"],
+    "BACKGROUND_MODIFIER_HOVER": ["#393C43"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#4F545C"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#393C43"],
+    "BACKGROUND_MODIFIER_ACCENT": ["#7289DA"],
+    "SCROLLBAR_THIN_THUMB": ["#202225"],
+    "SCROLLBAR_THIN_TRACK": ["transparent"],
+    "SCROLLBAR_AUTO_THUMB": ["#202225"],
+    "SCROLLBAR_AUTO_TRACK": ["#18191C"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#202225"],
+    "CHANNELS_DEFAULT": ["#B9BBBE"],
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#72767D"],
+    "TEXT_DANGER": ["#ED4245"],
+    "KEYBOARD": ["#292B2F"],
+    "SPOILER_HIDDEN_BACKGROUND": ["#18191C"],
+    "SPOILER_REVEALED_BACKGROUND": ["#202225"],
+    "CHANNEL_ICON": ["#B9BBBE"],
+    "CHAT_BACKGROUND": ["#36393F"]
   },
-
-  "HOME_BUTTON": {
-    "ICON": "https://clearvision.github.io/icons/discord.svg",
-    "POSITION": "center",
-    "SIZE": "40px"
+  "rawColors": {
+    "PRIMARY_100": "#E3E5E8",
+    "PRIMARY_200": "#DCDDDE",
+    "PRIMARY_300": "#B9BBBE",
+    "PRIMARY_360": "#72767D",
+    "PRIMARY_400": "#4F545C",
+    "PRIMARY_500": "#36393F",
+    "PRIMARY_600": "#2F3136",
+    "PRIMARY_630": "#292B2F",
+    "PRIMARY_660": "#202225",
+    "PRIMARY_700": "#18191C",
+    "BRAND_260": "#7289DA",
+    "BRAND_300": "#677BC4",
+    "BRAND_330": "#5D6DAF",
+    "BRAND_345": "#5562A3",
+    "BRAND_360": "#4E5797",
+    "BRAND_400": "#434C8A",
+    "BRAND_430": "#3C457E",
+    "BRAND_460": "#353C71",
+    "BRAND_500": "#2E3365",
+    "BRAND_530": "#282C59",
+    "BRAND_560": "#22254C",
+    "BRAND_600": "#1C1E40",
+    "BRAND_630": "#161733",
+    "BRAND_660": "#101027",
+    "BRAND_700": "#0A091A",
+    "RED_260": "#ED4245",
+    "RED_300": "#D83A3F",
+    "RED_330": "#C3333A",
+    "RED_345": "#B02D34",
+    "RED_360": "#9C272F",
+    "RED_400": "#89222A",
+    "RED_430": "#751C25",
+    "RED_460": "#61161F",
+    "RED_500": "#4E111A",
+    "RED_530": "#3A0B15",
+    "RED_560": "#260610",
+    "RED_600": "#13030A"
+  },
+  "background": {
+    "blur": 0.0,
+    "url": "https://i.ibb.co/xMBLPFc/warmth.png",
+    "alpha": 1.0
+  },
+  "plus": {
+    "version": 0
   }
 }
