@@ -7,40 +7,27 @@
     }
   ],
   "semanticColors": {
-    "ANDROID_RIPPLE": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_ACCENT": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MENTIONED": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MENTIONED_HOVER": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MODIFIER_ACCENT": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MODIFIER_HOVER": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MODIFIER_SELECTED": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MOBILE_PRIMARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_MOBILE_SECONDARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_NESTED_FLOATING": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_PRIMARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_SECONDARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_SECONDARY_ALT": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BACKGROUND_TERTIARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BG_BASE_PRIMARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BG_BASE_SECONDARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "BG_BASE_TERTIARY": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "EMBED_BACKGROUND": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "CARD_PRIMARY_BG": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "CARD_PRIMARY_PRESSED_BG": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "CARD_SECONDARY_BG": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "CHAT_BACKGROUND": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "INPUT_BACKGROUND": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"],
-    "REDESIGN_CHAT_INPUT_BACKGROUND": ["url('https://images3.alphacoders.com/135/1354394.jpeg')"]
+    "BACKGROUND_PRIMARY": ["#292c3c", "#292c3c"],
+    "BACKGROUND_SECONDARY": ["#303446", "#303446"],
+    "BACKGROUND_TERTIARY": ["#232634", "#232634"],
+    "INPUT_BACKGROUND": ["#232634", "#232634"]
   },
   "rawColors": {
-    "WHITE": "#303446",
-    "WHITE_500": "#303446"
+    "WHITE": "#ffffff"
   },
   "plus": {
     "version": "0",
-    "customOverlays": true,
-    "mentionLineColor": "#e5c890"
+    "customOverlays": true
   },
-  "spec": 2
+  "css": "
+    body {
+      background-image: url('https://images3.alphacoders.com/135/1354394.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .container-2lgZY {
+      background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent container for readability */
+    }
+  "
 }
