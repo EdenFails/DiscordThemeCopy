@@ -240,8 +240,7 @@
     "saturation": "100%",
     "invert": "0%",
     "grayscale": "0%",
-
-    "blur": "3px"
+    "blur": "3"
    },
    "plus":{
       "version":0
