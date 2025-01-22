@@ -227,9 +227,21 @@
       "BLUE_700":"#331B4C"
    },
    "background":{
-      "blur":0.0,
-      "url":"https://images3.alphacoders.com/135/1354394.jpeg",
-      "alpha":1.0
+       "url": "https://images3.alphacoders.com/135/1354394.jpeg",
+       "shading": "70%",
+       "overlay": "rgba(0, 0, 0, 0.6)",
+       "position": "center",
+       "size": "cover",
+       "repeat": "no-repeat",
+       "attachment": "fixed",
+       "brightness": "100%",
+       "contrast": "100%",
+       "saturation": "100%",
+       "invert": "0%",
+       "grayscale": "0%",
+       "sepia": "0%",
+       "blur": "0px"
+  },
    },
    "plus":{
       "version":0
