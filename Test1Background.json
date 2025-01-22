@@ -1,6 +1,6 @@
 {
-   "name":"Vixtra",
-   "description":"Currently Undergoing Bunny Port | Rewrite Version: 0.4",
+   "name":"Eden",
+   "description":"Currently Undergoing Bunny Port | Rewrite Version: 0.5",
    "authors":[
       {
          "name":"VioletStorm",
@@ -235,7 +235,7 @@
     "size": "cover",
     "repeat": "no-repeat",
     "attachment": "fixed",
-    "brightness": "50%",
+    "brightness": "20%",
     "contrast": "100%",
     "saturation": "100%",
     "invert": "0%",
