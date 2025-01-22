@@ -229,8 +229,8 @@
     },
     "background": {
         "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-        "alpha": 0.4,
-        "blur": 0.3,
+        "alpha": 0.9,
+        "blur": 0.5,
         "position": "center",
         "size": "cover",
         "repeat": "no-repeat",
