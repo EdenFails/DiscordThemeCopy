@@ -1,6 +1,6 @@
 {
     "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.58",
+    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.6",
     "authors": [
         {
             "name": "VioletStorm",
@@ -231,7 +231,7 @@
         "BLUE_700": "#331B4C"
     },
     "background": {
-        "url": "https://images3.alphacoders.com/135/1354394.jpeg",
+        "url": "https://cdn.discordapp.com/attachments/596097789277110465/1331800486722011149/Untitled_design1.png?ex=6792ef5b&is=67919ddb&hm=538135d700c29d940d64b52574931ab62ab3fce33e81469cc2b55e412217bd85&",
         "alpha": 0.1,
         "blur": 0.4
     },
