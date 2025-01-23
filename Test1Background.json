@@ -121,6 +121,9 @@
         "BG_BASE_PRIMARY": [
             "#40313B"
         ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#40313B"
+        ],
         "PANEL_BG":[
             "#595C50"
         ],
