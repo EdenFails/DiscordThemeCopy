@@ -45,15 +45,12 @@
         "BACKGROUND_PRIMARY": [
             "#5A5131"
         ],
-
         "BACKGROUND_TERTIARY": [
             "#595C50"
         ],
         "BACKGROUND_ACCENT": [
             "#595C50"
         ],
-
-
         "BACKGROUND_MOBILE_SECONDARY": [
             "#3D2D38AA"
         ],
@@ -143,6 +140,12 @@
         ],
         "BG_SURFACE_OVERLAY_TMP" : [
             "#40313B"
+        ],
+        "EXPRESSION_PICKER_BG":[
+            "#392C35FF"
+        ],
+        "BACKGROUND_TERTIARY":[
+            "#595C50"
         ]
     },
     "rawColors": {
