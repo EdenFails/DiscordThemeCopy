@@ -31,19 +31,19 @@
             "#FFFFFF"
         ],
         "INTERACTIVE_NORMAL": [
-            "#746F65FF"
+            "#D6BD8BFF"
         ],
         "INTERACTIVE_HOVER": [
-            "#9B917CFF"
+            "#D8CAAFFF"
         ],
         "INTERACTIVE_ACTIVE": [
-            "#9A8C6EFF"
+            "#CCB990FF"
         ],
         "INTERACTIVE_MUTED": [
-            "#8C856D72"
+            "#8C856D"
         ],
         "BACKGROUND_PRIMARY": [
-            "#5A5131FF"
+            "#5A5131"
         ],
 
         "BACKGROUND_TERTIARY": [
