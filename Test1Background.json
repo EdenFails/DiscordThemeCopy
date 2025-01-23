@@ -55,7 +55,7 @@
             "#1E0D28"
         ],
         "BACKGROUND_ACCENT": [
-            "#3C2849"
+            "##40312A"
         ],
         "BACKGROUND_FLOATING": [
             "#120819"
@@ -118,13 +118,16 @@
             "#391A4C"
         ],
         "CHANNEL_ICON": [
-            "#CB93DF"
+            "#595C50"
         ],
         "CHAT_BACKGROUND": [
             "#060208"
         ],
         "BG_BASE_PRIMARY": [
             "#040208FF"
+        ],
+        "PANEL_BG":[
+            "#8C856D72"
         ]
     },
     "rawColors": {
