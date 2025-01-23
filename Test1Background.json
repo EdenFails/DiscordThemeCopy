@@ -1,6 +1,6 @@
 {
     "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.423",
+    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.4223",
     "authors": [
         {
             "name": "VioletStorm",
@@ -16,7 +16,7 @@
             "#FFFFFF"
         ],
         "TEXT_NORMAL": [
-            "#FFFFFF00"
+            "#FFFFFF"
         ],
         "TEXT_MUTED": [
             "#FFFFFF"
@@ -124,7 +124,7 @@
             "#060208"
         ],
         "BG_BASE_PRIMARY": [
-            "#04020899"
+            "#04020805"
         ]
     },
     "rawColors": {
