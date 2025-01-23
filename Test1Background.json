@@ -1,6 +1,6 @@
 {
     "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.56",
+    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.57",
     "authors": [
         {
             "name": "VioletStorm",
@@ -232,7 +232,7 @@
     },
     "background": {
         "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-        "alpha": 0.7,
+        "alpha": 0.1,
         "blur": 1
     },
     "plus": {
