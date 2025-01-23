@@ -40,7 +40,7 @@
             "#E6A8FF"
         ],
         "INTERACTIVE_MUTED": [
-            "#6F517C"
+            "#8C856D72"
         ],
         "BACKGROUND_PRIMARY": [
             "#060208"
@@ -73,16 +73,16 @@
             "#020202"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
-            "#6F517C"
+            "#8C856D72"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
-            "#6F517C"
+            "#8C856D72"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
-            "#6F517C"
+            "#8C856D72"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#6F517C"
+            "#8C856D72"
         ],
         "SCROLLBAR_THIN_THUMB": [
             "#100719"
@@ -128,6 +128,21 @@
         ],
         "PANEL_BG":[
             "#8C856D72"
+        ],
+        "CARD_SECONDARY_BG" : [
+            "#8C856D72"
+        ],
+        "CARD_PRIMARY_BG" : [
+            "#7C756D72"
+        ],
+        "BORDER_FAINT" : [
+            "#40313B"
+        ],
+        "BORDER_STRONG" : [
+            "#40313B"
+        ],
+        "REDESIGN_CHAT_INPUT_BACKGROUND" : [
+            "#40313B72"
         ]
     },
     "rawColors": {
