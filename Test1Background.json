@@ -143,6 +143,9 @@
         ],
         "REDESIGN_CHAT_INPUT_BACKGROUND" : [
             "#40313B72"
+        ],
+        "BG_BASE_TERTIARY":[
+            "#40313B"
         ]
     },
     "rawColors": {
