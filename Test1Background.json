@@ -124,7 +124,7 @@
             "#060208"
         ],
         "BG_BASE_PRIMARY": [
-            "#04020831"
+            "#040208FF"
         ]
     },
     "rawColors": {
@@ -232,7 +232,7 @@
     },
     "background": {
         "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-        "alpha": 0.5,
+        "alpha": 0.7,
         "blur": 1
     },
     "plus": {
