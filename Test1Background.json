@@ -124,8 +124,8 @@
             "#060208"
         ],
         "BG_BASE_PRIMARY": [
-            "#04020804"
-        ],
+            "#040208FF"
+        ]
     },
     "rawColors": {
         "PRIMARY_100": "#F2EAF7",
