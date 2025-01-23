@@ -45,12 +45,7 @@
         "BACKGROUND_PRIMARY": [
             "#5A5131FF"
         ],
-        "BACKGROUND_SECONDARY": [
-            "#595C50"
-        ],
-        "BACKGROUND_SECONDARY_ALT": [
-            "#595C50"
-        ],
+
         "BACKGROUND_TERTIARY": [
             "#595C50"
         ],
@@ -263,3 +258,4 @@
         "version": 0
     }
 }
+
