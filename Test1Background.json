@@ -1,6 +1,6 @@
 {
     "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.61",
+    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.62",
     "authors": [
         {
             "name": "VioletStorm",
@@ -232,8 +232,7 @@
     },
     "background": {
         "url": "https://raw.githubusercontent.com/EdenFails/DiscordThemeCopy/refs/heads/main/Untitled%20design(1).png",
-        "alpha": 0.1,
-        "blur": 0.4
+        "blur": 0.6
     },
     "plus": {
         "version": 0
