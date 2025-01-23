@@ -1,34 +1,34 @@
 {
-    "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.62",
+    "name": "Disappearing Frieren",
+    "description": "Currently Undergoing Development From VioletStorm's Vixtra | Version: 0.8",
     "authors": [
         {
-            "name": "VioletStorm",
-            "id": "246735056280748032"
+            "name": "EdenFails",
+            "id": "305783664015441921"
         }
     ],
     "spec": 2,
     "semanticColors": {
         "HEADER_PRIMARY": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "HEADER_SECONDARY": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "TEXT_NORMAL": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "TEXT_MUTED": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "TEXT_LINK": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "TEXT_PRIMARY": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "TEXT_SECONDARY": [
-            "#FFFFFF"
+            "#F3DDFFFF"
         ],
         "INTERACTIVE_NORMAL": [
             "#D6BD8BFF"
@@ -133,7 +133,7 @@
             "#40313B"
         ],
         "REDESIGN_CHAT_INPUT_BACKGROUND" : [
-            "#51474E"
+            "#51474EFF"
         ],
         "BG_BASE_TERTIARY":[
             "#40313B"
