@@ -1,6 +1,6 @@
 {
     "name": "Eden",
-    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.4223",
+    "description": "Currently Undergoing Bunny Port | Rewrite Version: 1.5",
     "authors": [
         {
             "name": "VioletStorm",
@@ -124,7 +124,7 @@
             "#060208"
         ],
         "BG_BASE_PRIMARY": [
-            "#040208BF"
+            "#040208CF"
         ]
     },
     "rawColors": {
@@ -232,7 +232,7 @@
     },
     "background": {
         "url": "https://images3.alphacoders.com/135/1354394.jpeg",
-        "alpha": 0.9,
+        "alpha": 0.5,
         "blur": 1,
         "optacity":0.5
     },
