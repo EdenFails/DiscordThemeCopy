@@ -4955,8 +4955,3 @@ a[href*="shokoanime.com"] {
     object-fit: cover !important;
     object-position: top center !important;
 }
-
-/* Optional: Hide 'My Media' small buttons row */
-.verticalSection.MyMedia.section0 {
-    display: none !important;
-}
