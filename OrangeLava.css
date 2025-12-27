@@ -305,3 +305,9 @@ h1, h2, h3, h4, .cardText, .textActionButton {
 .layout-tv .mainDetailButtons.focuscontainer-x::before {
     background: rgba(15, 11, 8, 0.8) !important;
 }
+
+
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  background: none !important;
+  border: none !important;
+}
