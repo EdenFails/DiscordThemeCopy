@@ -1,0 +1,307 @@
+
+/* ======================================================
+   GLOBAL VARIABLES
+   ====================================================== */
+:root {
+  /* --- UI Accents --- */
+  --accent: #ff8c00 !important;         /* Vibrant Sunset Orange */
+  --selection: 255, 140, 0;             /* RGB for selection transparency */
+  --rounding: 0.8em;
+
+  /* --- Magma Animation Colors --- */
+  --magma-bg: #240a00;                  /* Deep Dark Brown/Orange Background */
+  --blob-core: #FF6D00;                 /* Bright Orange Core */
+  --blob-edge: #FF3D00;                 /* Red-Orange Edges */
+}
+
+/* ======================================================
+   1. MAGMA CHAOS ENGINE (BACKGROUND ANIMATION)
+   ====================================================== */
+
+/* Cleanup default backgrounds so animation is visible */
+html, body, .backgroundContainer, .backgroundContainer.withBackdrop,
+.sections.homeSectionsContainer::before,
+.pageTabContent.is-active::before,
+.mainDrawer, .appfooter {
+    background: transparent !important;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+}
+
+/* The Canvas Color */
+html {
+    background-color: var(--magma-bg) !important;
+    width: 100%; height: 100%;
+}
+
+/* The Goo Container (Blur + Contrast = Liquid) */
+.backgroundContainer {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100vh;
+    z-index: -5;
+    overflow: hidden;
+    filter: blur(35px) contrast(18);
+    opacity: 0.7; 
+    pointer-events: none;
+}
+
+/* --- THE BLOBS (High Density) --- */
+
+/* LAYER 1: 5 Massive Slow Blobs (Foundation) */
+.backgroundContainer {
+    background-image: 
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 45%),
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 55%);
+    
+    background-size: 60vh 60vh, 50vh 50vh, 40vh 40vh, 55vh 55vh, 45vh 45vh;
+    background-repeat: no-repeat;
+    animation: chaosWander 37s ease-in-out infinite alternate;
+}
+
+/* LAYER 2: 5 Medium Drifting Blobs */
+.backgroundContainer::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background-image: 
+        radial-gradient(circle, var(--blob-core) 0%, transparent 55%),
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 45%),
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 40%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 50%);
+
+    background-size: 45vh 45vh, 55vh 55vh, 35vh 35vh, 40vh 40vh, 30vh 30vh;
+    background-repeat: no-repeat;
+    animation: chaosDrift 29s ease-in-out infinite alternate-reverse;
+    mix-blend-mode: screen; 
+}
+
+/* LAYER 3: 8 Fast Rising Bubbles (Activity) */
+.backgroundContainer::after {
+    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background-image: 
+        radial-gradient(circle, var(--blob-core) 0%, transparent 60%),
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 60%), 
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 60%),
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 50%),
+        radial-gradient(circle, var(--blob-core) 0%, transparent 55%), 
+        radial-gradient(circle, var(--blob-edge) 0%, transparent 45%);
+
+    background-size: 30vh 30vh, 25vh 25vh, 40vh 40vh, 20vh 20vh, 15vh 15vh, 28vh 28vh, 22vh 22vh, 18vh 18vh;
+    background-repeat: no-repeat;
+    animation: chaosRise 23s linear infinite;
+}
+
+/* --- ANIMATION KEYFRAMES --- */
+
+@keyframes chaosWander {
+    0%   { background-position: -10% -10%,  50% 20%,  90% -10%, 20% 80%,  80% 50%; }
+    50%  { background-position:  20%  40%,  10% 80%,  60%  20%, 90% 10%,  -10% 50%; }
+    100% { background-position:  90%  90%,  80% 10%,  10%  90%, 50% -10%, 20% 20%; }
+}
+
+@keyframes chaosDrift {
+    0%   { background-position: 100% 0%,   0% 100%,  50% 50%, 80% 20%,  20% 80%; }
+    50%  { background-position: 50% 100%, 50% 0%,    0% 50%,  20% 20%,  80% 80%; }
+    100% { background-position: 0% 0%,    100% 100%, 80% 20%, 10% 90%,  90% 10%; }
+}
+
+@keyframes chaosRise {
+    0%   { background-position: 
+           10% 110%, 80% 120%, 30% 130%, 60% 110%, 
+           20% 140%, 90% 125%, 40% 115%, 70% 135%; }
+    100% { background-position: 
+           15% -20%, 75% -30%, 35% -40%, 65% -20%, 
+           25% -50%, 85% -25%, 45% -35%, 65% -45%; }
+}
+
+/* ======================================================
+   2. ORANGE UI THEME OVERRIDES
+   ====================================================== */
+
+/* Dark Haze Overlays for Text Readability */
+.detailPageSecondaryContainer::before,
+.detailPagePrimaryContainer::before {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Header Backgrounds */
+.layout-desktop .headerRight, 
+.layout-tv .headerRight,
+.layout-desktop .headerLeft,
+.layout-tv .headerLeft,
+.nowPlayingInfoContainer {
+  background: rgba(15, 11, 8, 0.7) !important;
+}
+
+/* --- BUTTONS & INTERACTIVE --- */
+
+/* Main Play Buttons (Heartbeat + Orange) */
+.layout-desktop .button-flat.btnPlay.detailButton.emby-button,
+.layout-tv .button-flat.btnPlay.detailButton.emby-button,
+.cardOverlayFab-primary,
+.button-flat.btnPlay.detailButton.emby-button {
+  background: linear-gradient(135deg, #FF6D00, #D84315) !important;
+  box-shadow: 0px 0px 13px rgba(230, 81, 0, 0.5) !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.4) !important;
+  animation: heartBeat 1.5s infinite ease-in-out !important;
+}
+
+/* Button Hover States */
+.button-flat.btnPlay.detailButton.emby-button:hover,
+.button-flat.btnPlay.detailButton.emby-button:focus {
+  background: #fff !important;
+  color: #e65100 !important;
+  box-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5) !important;
+  animation: none !important;
+}
+
+@keyframes heartBeat {
+    0% { transform: scale(1); }
+    12% { transform: scale(1.12); } 
+    24% { transform: scale(1); }
+    36% { transform: scale(1.12); } 
+    60% { transform: scale(1); }    
+    100% { transform: scale(1); }
+}
+
+/* Text Links & Action Buttons */
+.textActionButton:hover,
+.button-link:hover,
+.paper-icon-button-light:hover:not(:disabled),
+.emby-tab-button:hover,
+.selectLabelFocused,
+.inputLabelFocused,
+.textareaLabelFocused,
+.buttonActive {
+  color: #ffb74d !important;
+}
+
+/* Sliders & Progress Bars */
+.mdl-slider::-webkit-slider-thumb,
+.mdl-slider::-moz-range-thumb,
+.mdl-slider::-ms-thumb {
+  background: var(--accent) !important;
+}
+.mdl-slider .mdl-slider-background-lower[style] {
+  background: var(--accent) !important;
+  background-color: #ff8c00 !important;
+}
+.iconOsdProgressInner, .taskProgressInner, .itemProgressBarForeground {
+  background: #ff8c00 !important;
+}
+
+/* --- CARD PLACEHOLDERS --- */
+.defaultCardBackground1 { background-color: #3e2723ba !important; }
+.defaultCardBackground2 { background-color: #4e342eba !important; }
+.defaultCardBackground3 { background-color: #3e2723ba !important; }
+.defaultCardBackground4 { background-color: #5d4037ba !important; }
+.defaultCardBackground5 { background-color: #4e342eba !important; }
+
+/* Item selection boxes */
+.emby-textarea:focus,
+.emby-select-withcolor:focus,
+.emby-input:focus,
+.itemSelectionPanel {
+  border: 0.01em solid #ffb74d !important;
+}
+
+/* Watched checkmarks / Favorite Hearts */
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating {
+  color: #ff8c00 !important;
+}
+
+/* Spinner Colors */
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+  border-color: var(--accent) !important;
+}
+
+/* ======================================================
+   3. GLASS CARDS & UI POLISH
+   ====================================================== */
+
+/* Glass Card Backgrounds */
+.itemsContainer > .card > .cardBox,
+.cardBox.cardBox-bottompadded,
+.visualCardBox {
+    background: rgba(40, 12, 0, 0.7) !important; 
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 140, 0, 0.15) !important;
+}
+
+/* Card Hover Effect */
+.card:hover .cardBox,
+.cardBox:hover {
+    background: rgba(60, 20, 0, 0.8) !important;
+    border-color: rgba(255, 140, 0, 0.5) !important;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+/* Login Page Squares */
+#loginPage .card.squareCard.scalableCard.squareCard-scalable {
+    background: rgba(40, 12, 0, 0.7) !important;
+    border: 1px solid rgba(255, 140, 0, 0.2) !important;
+}
+
+/* Hover Animation for Cards */
+.card-hoverable {
+    transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+.card-hoverable:hover {
+    transform: scale(1.06) translateY(-4px) !important;
+    z-index: 100;
+}
+
+/* Input Fields Glass Effect */
+.emby-input, .emby-textarea, .emby-select {
+    background: rgba(0, 0, 0, 0.6) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(10px);
+    color: #fff !important;
+}
+
+/* Shiny Text Logo */
+.pageTitleWithLogo::after {
+    background: linear-gradient(to right, #FFEB3B, #FF9800, #FF5722, #FF9800, #FFEB3B);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shinyText 4s linear infinite;
+    filter: drop-shadow(0 0 3px rgba(191, 54, 12, 0.5));
+}
+@keyframes shinyText { to { background-position: 200% center; } }
+
+/* Text Shadows for Contrast */
+h1, h2, h3, h4, .cardText, .textActionButton {
+    text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
+}
+
+/* Specific Component Fixes (Next Up, Scenes, etc) */
+.upNextContainer { background: rgba(26, 20, 15, 0.85) !important; }
+.upNextContainer .raised { background: rgba(255, 140, 0, 0.4) !important; }
+
+.layout-desktop #scenesContent .innerCardFooter, 
+.layout-tv #scenesContent .innerCardFooter {
+    background: rgba(26, 20, 15, 0.7) !important;
+}
+
+.layout-desktop #itemDetailPage .listItem,
+.layout-tv #itemDetailPage .listItem {
+    background: rgba(26, 20, 15, 0.6) !important;
+}
+
+.layout-desktop .mainDetailButtons.focuscontainer-x::before, 
+.layout-tv .mainDetailButtons.focuscontainer-x::before {
+    background: rgba(15, 11, 8, 0.8) !important;
+}
