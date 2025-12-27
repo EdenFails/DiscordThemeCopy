@@ -4874,3 +4874,89 @@ a[href*="shokoanime.com"] {
 .layout-mobile .button-flat.btnPlay.detailButton.emby-button:focus .detailButton-content {
   transform: scale(1.25);
 }
+
+
+
+/* ======================================================
+   HELIX LOGO OVERRIDES
+   ====================================================== */
+.pageTitleWithLogo img { display: none !important; opacity: 0 !important; }
+.pageTitleWithLogo { background: none !important; width: auto !important; min-width: 150px; }
+.pageTitleWithLogo::after {
+    content: "Helix";
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--theme-text-color, #fbfbfc);
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+}
+
+/* ======================================================
+   FORCE HOME SCREEN CARDS TO LANDSCAPE (Global)
+   ====================================================== */
+
+/* 1. Force the Card Wrapper to be 16:9 */
+.homePage .card-portrait {
+    width: 280px !important; 
+}
+
+/* 2. KILL the standard Portrait Padding (The crucial fix) */
+.homePage .card-portrait .cardPadder-portrait {
+    padding-bottom: 56.25% !important; /* 16:9 Ratio */
+}
+
+/* 3. Force the image to crop nicely */
+.homePage .card-portrait .cardImageContainer .cardImage {
+    object-fit: cover !important;
+    object-position: top center !important; 
+}
+
+/* 4. Fix the overlay button centering */
+.homePage .card-portrait .cardOverlayButton {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* ======================================================
+   SPECIFIC FIXES - WILDCARD METHOD
+   ====================================================== */
+
+/* 1. HIDE THE STUCK LOADING SPINNER */
+#hssLoadingIndicator {
+    display: none !important;
+}
+
+/* 2. FORCE LANDSCAPE ON ALL "DISCOVER", "SUGGESTED", & "UPCOMING" SECTIONS
+   The [class*="Text"] selector finds any element containing that word. */
+
+/* Target Containers */
+.verticalSection[class*="Upcoming"] .cardPadder,
+.verticalSection[class*="Discover"] .cardPadder,
+.verticalSection[class*="Suggested"] .cardPadder {
+    padding-bottom: 56.25% !important; /* Force 16:9 Landscape */
+}
+
+/* Target Specific Portrait Overrides inside those sections */
+.verticalSection[class*="Upcoming"] .cardPadder-portrait,
+.verticalSection[class*="Discover"] .cardPadder-portrait,
+.verticalSection[class*="Suggested"] .cardPadder-portrait {
+    padding-bottom: 56.25% !important;
+}
+
+/* Ensure Images Crop Correctly in these sections */
+.verticalSection[class*="Upcoming"] .cardImage,
+.verticalSection[class*="Discover"] .cardImage,
+.verticalSection[class*="Suggested"] .cardImage {
+    object-fit: cover !important;
+    object-position: top center !important;
+}
+
+/* Optional: Hide 'My Media' small buttons row */
+.verticalSection.MyMedia.section0 {
+    display: none !important;
+}
